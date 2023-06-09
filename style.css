@@ -1,0 +1,12 @@
+
+header {
+    height: 300px;
+    border: solid 1px wheat;
+    text-align: center;
+    background-color: gray;
+    
+  }
+  header h1{
+    font-size: 100px;
+  }
+  

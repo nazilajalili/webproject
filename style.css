@@ -1,12 +1,76 @@
-
 header {
-    height: 300px;
-    border: solid 1px wheat;
-    text-align: center;
-    background-color: gray;
-    
-  }
-  header h1{
-    font-size: 100px;
-  }
-  
+  height: 300px;
+  border: solid 1px wheat;
+  text-align: center;
+  background-color: gray;
+}
+header h1 {
+  font-size: 100px;
+}
+
+.row {
+  display: flex;
+  padding-top: 20px;
+}
+
+.column {
+  border-radius: 14px;
+  border: 1px solid gray;
+  margin: 15px;
+  height: 500px;
+  flex: 25%;
+  padding: 10px;
+  text-align: center;
+}
+.column:hover {
+  border-radius: 14px;
+  border: 1px solid gray;
+  box-shadow: 4px 4px 5px gray;
+  margin: 15px;
+  height: 520px;
+  flex: 25%;
+  padding: 10px;
+  text-align: center;
+}
+
+.food-name {
+  margin-top: 5px;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 14px;
+  border: 1px solid green;
+  padding: 2px;
+  max-height: 150px;
+
+  min-width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 20px black;
+  box-shadow: 4px 4px 5px gray;
+}
+
+.food-name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  border: none;
+  background-color: orange;
+  min-height: 50px;
+  min-width: 150px;
+  border-radius: 14px;
+}
+
+button:hover {
+  margin-top: 10px;
+  border: none;
+  background-color: orangered;
+  min-height: 55px;
+  min-width: 155px;
+  border-radius: 14px;
+  box-shadow: 4px 4px 5px orange;
+}
+
